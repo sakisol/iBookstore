@@ -148,7 +148,7 @@ function filterBooks(searchBooks) {
             return listBooks(copyArray);
         } 
         
-       
+    
 
         var filtered = copyArray.filter(function (book) {
             
