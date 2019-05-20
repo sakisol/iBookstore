@@ -7,13 +7,10 @@ body {
 
 .header {
   font-family: "Special Elite", cursive;
-  /* border-style: thin; */
-  /* background-image: url(../img/Wall_of_Books_321.jpg); */
-  height: 80px;
+  height: 55px;
 }
 
 .siteName {
-  background-color: white;
   padding-top: 5px;
   padding-bottom: 5px;
   height: 30px;
@@ -26,6 +23,16 @@ body {
   display: flex;
   justify-content: flex-end;
   font-family: "Slabo 27px", serif;
+  margin-top: 10px;
+}
+
+.radios {
+  float: right;
+  margin-right: 55px;
+}
+
+.radios input {
+  margin: 5px;
 }
 
 /* Style the search field */
@@ -62,9 +69,6 @@ form.example::after {
 }
 /*MIDSECTION */
 #midsection {
-  /* overflow-y: scroll; */
-  /* border-style: thin; */
-  /* padding-left: 20px; */
   overflow-y: hidden;
   display: flex;
   flex-direction: row;
@@ -120,11 +124,15 @@ form.example::after {
 /* Style the back side */
 .backofbooks {
   background-color: lightgrey;
-  font-size: 14px;
   transform: rotateY(180deg);
   height: 100%;
   align-content: center;
   padding-top: 15px;
+}
+
+.backofbooks p {
+  font-size: 14px;
+  margin: 10px;
 }
 
 .morebtn {
@@ -146,10 +154,9 @@ form.example::after {
   height: 20vh;
   overflow-y: scroll;
   padding: 0;
-  /* border-style: inset; */
 }
 
-.aftermidsect,
+/* .aftermidsect,
 h5 {
   font-family: "Special Elite", cursive;
   text-align: center;
@@ -186,4 +193,4 @@ p {
   height: 100px;
   border-style: thin;
   border-color: aliceblue;
-}
+} */
